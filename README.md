@@ -12,12 +12,12 @@ Responsive Design: The portfolio is fully responsive and looks great on desktop 
 Interactive Terminal: Users can interact with the portfolio by typing commands just like in an actual terminal.<br>
 Customizable Content: You can easily customize the portfolio, add your projects, skills, and hyperlinks, and add or modify commands.
 
-#### Check the live website: https://montymahato.github.io/terminal-portfolio
+#### Check the live website: https://kenni001.github.io/terminal-portfolio
 
 ## Usage
 
 Clone this repository to your local machine:<br>
-`git clone https://github.com/montymahato/terminal-portfolio.git`<br>
+`git clone https://github.com/Kenni001/Terminal_Portfolio.git`<br>
 
 Navigate to the project directory:<br>
 `cd terminal-portfolio`<br>
