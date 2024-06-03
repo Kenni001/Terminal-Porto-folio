@@ -7,7 +7,7 @@ import Errorpage from "./js/Errorpage";
 const root = ReactDOM.createRoot(document.getElementById("root")); // Updated code
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Terminal_Portfolio">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/error" element={<Errorpage />} />
