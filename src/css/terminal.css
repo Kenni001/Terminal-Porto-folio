@@ -1,0 +1,213 @@
+@import "https://fonts.googleapis.com/css?family=Inconsolata";
+
+.terminal {
+  color: white;
+  font-family: Inconsolata, sans-serif, Arial, Helvetica;
+  font-size: medium;
+  line-height: 1.2;
+  background-color: black;
+  height: auto;
+}
+
+.aboutme {
+  width: 50%;
+  color:rgb(194, 181, 147);
+}
+
+.previousCommands {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#command {
+  width: 100%;
+  background: none;
+  border: 0px;
+  font-family: Inconsolata, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+.mcq-wrapper {
+  position: relative;
+}
+
+.mcq {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: none;
+}
+
+.mcq-option {
+  padding: 1px;
+  cursor: pointer;
+ 
+}
+
+.mcq-option:hover a {
+  background-color: #f2f2f2;
+  color: black;
+  
+}
+
+.mcq-option:hover {
+  background-color: #f2f2f2;
+  color: black;
+  width: 280px;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.commands {
+  display: flex;
+  gap: 5px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+#skipButton {
+  position: absolute;
+  right: 2%;
+  font-style: italic;
+  color: gray;
+}
+
+.console {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.userPrefix {
+  margin-right: 7px;
+  color: rgb(7, 187, 7);
+}
+
+@media screen and (max-width: 768px) {
+
+  /* CSS rules for mobile devices */
+  #skipButton {
+    font-size: medium;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .terminal {
+    font-size: medium;
+    height: auto;
+  }
+
+  .aboutme {
+    width: 100%;
+  }
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: .6rem;
+  font-family: monospace;
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  width: 100%;
+  border: .1vw solid var(--color-text);
+  border-radius: 1rem;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+  font-weight: 900;
+  padding: 0 .4rem 0 .4rem;
+}
+
+a:hover,
+a:focus {
+  background-color: var(--color-terminal-text);
+  color: rgb(0, 140, 255);
+}
+
+strong {
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: .4rem;
+  white-space: pre;
+}
+
+.education>*,
+.professional-experience>*,
+.projects>*,
+.skills>*,
+.achievements-and-certifications>* {
+  padding-bottom: .5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.education-item,
+.professional-experience-item {
+  display: grid;
+}
+
+.education-item>*:nth-child(2n+2),
+.professional-experience-item>*:nth-child(2n+2) {
+  text-align: right;
+}
+
+.professional-experience-item>ul,
+.projects-item>ul,
+.skills>ul,
+.achievements-and-certifications>ul {
+  padding-left: 2rem;
+  padding-top: .25rem;
+}
+
+.precss{
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.certi{
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        /* Clear floats */
+      }
+    
+      li {
+        float: left;
+        width: 50%;
+        /* Two items in a row */
+      }
+}
