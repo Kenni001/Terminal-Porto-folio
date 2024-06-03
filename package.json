@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Kenni001.github.io/Terminal_Portfolio",
   "name": "terminal-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +42,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.1"
   }
 }
