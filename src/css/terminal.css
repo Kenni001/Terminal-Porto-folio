@@ -11,7 +11,7 @@
 
 .aboutme {
   width: 50%;
-  color:rgb(194, 181, 147);
+  color: rgb(194, 181, 147);
 }
 
 .previousCommands {
@@ -45,13 +45,11 @@
 .mcq-option {
   padding: 1px;
   cursor: pointer;
- 
 }
 
 .mcq-option:hover a {
   background-color: #f2f2f2;
   color: black;
-  
 }
 
 .mcq-option:hover {
@@ -107,6 +105,22 @@ input[type="text"]:focus {
   }
 
   .aboutme {
+    width: 100%;
+  }
+
+  .console {
+    padding: 10px;
+  }
+
+  .userPrefix {
+    margin-right: 3px;
+  }
+
+  .commands {
+    flex-direction: column;
+  }
+
+  #command {
     width: 100%;
   }
 }
@@ -192,22 +206,25 @@ strong {
   padding-top: .25rem;
 }
 
-.precss{
+.precss {
   margin-top: -10px;
   margin-bottom: -10px;
 }
 
-.certi{
-    ul {
-        list-style-type: none;
-        padding: 0;
-        overflow: hidden;
-        /* Clear floats */
-      }
-    
-      li {
-        float: left;
-        width: 50%;
-        /* Two items in a row */
-      }
+.certi {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    /* Clear floats */
+  }
+
+  li {
+    float: left;
+    width: 50%;
+    /* Two items in a row */
+  }
 }
+
+/* eslint-disable no-useless-escape */
+/* eslint-disable react-hooks/exhaustive-deps */
