@@ -91,7 +91,6 @@ input[type="text"]:focus {
 }
 
 @media screen and (max-width: 768px) {
-
   /* CSS rules for mobile devices */
   #skipButton {
     font-size: medium;
@@ -129,7 +128,7 @@ input[type="text"]:focus {
   display: flex;
   flex-direction: column;
   border: 2px solid white;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   font-family: monospace;
   font-size: 14px;
   margin-top: 1rem;
@@ -139,7 +138,7 @@ input[type="text"]:focus {
 
 hr {
   width: 100%;
-  border: .1vw solid var(--color-text);
+  border: 0.1vw solid var(--color-text);
   border-radius: 1rem;
 }
 
@@ -147,7 +146,7 @@ a {
   color: var(--color-text);
   text-decoration: underline;
   font-weight: 900;
-  padding: 0 .4rem 0 .4rem;
+  padding: 0 0.4rem 0 0.4rem;
 }
 
 a:hover,
@@ -164,7 +163,7 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -174,16 +173,16 @@ strong {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  row-gap: .4rem;
+  row-gap: 0.4rem;
   white-space: pre;
 }
 
-.education>*,
-.professional-experience>*,
-.projects>*,
-.skills>*,
-.achievements-and-certifications>* {
-  padding-bottom: .5rem;
+.education > *,
+.professional-experience > *,
+.projects > *,
+.skills > *,
+.achievements-and-certifications > * {
+  padding-bottom: 0.5rem;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -193,17 +192,17 @@ strong {
   display: grid;
 }
 
-.education-item>*:nth-child(2n+2),
-.professional-experience-item>*:nth-child(2n+2) {
+.education-item > *:nth-child(2n + 2),
+.professional-experience-item > *:nth-child(2n + 2) {
   text-align: right;
 }
 
-.professional-experience-item>ul,
-.projects-item>ul,
-.skills>ul,
-.achievements-and-certifications>ul {
+.professional-experience-item > ul,
+.projects-item > ul,
+.skills > ul,
+.achievements-and-certifications > ul {
   padding-left: 2rem;
-  padding-top: .25rem;
+  padding-top: 0.25rem;
 }
 
 .precss {
