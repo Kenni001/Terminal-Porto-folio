@@ -325,6 +325,7 @@ function Terminal() {
             '<span class="command">project &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - </span>    <span class="helpdes">View coding projects</span>',
             '<span class="command">social &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - </span>  <span class="helpdes">Display social network links</span>',
             '<span class="command">pwd  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          - </span>    <span class="helpdes">Print present working directory</span>',
+            '<span class="command">github  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          - </span>    <span class="helpdes">My Github profile</span>',            
             '<span class="command">hacksim    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - </span>    <span class="helpdes">Enter the hacking simulator</span>',
             '<span class="command">aborthack    &nbsp;&nbsp;&nbsp;&nbsp;      - </span>    <span class="helpdes">Abort ongoing hack in the simulator</span>',
             '<span class="command">source code    &nbsp;&nbsp;      - </span>    <span class="helpdes">Link to the source code of this project</span>',
