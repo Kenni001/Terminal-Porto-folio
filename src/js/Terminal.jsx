@@ -471,6 +471,21 @@ function Terminal() {
         </div>
       );
     },
+    github: () => {
+      playSound("textPrint");
+      return (
+        <div>
+          To view the my Github Profile
+          <a
+            href="https://github.com/Kenni001"
+            target="_blank"
+            rel="noreferrer"
+          >
+            click here!
+          </a>
+        </div>
+      );
+    },
   };
 
   const scrollToBottom = () => {
