@@ -144,7 +144,7 @@ function Terminal() {
               "_blank"
             );
           } else if (previousCommand === "GUI") {
-            window.open("https://github.com/Kenni001", "_blank");
+            window.open("kenni001.github.io/Personal_Portfolio/", "_blank");
           } else if (previousCommand === "sudo rm -rf") {
             navigate("/error", { replace: true });
           }
@@ -296,7 +296,7 @@ function Terminal() {
         <div>
           To view the Graphical portfolio website
           <a
-            href="https://github.com/Kenni001"
+            href="kenni001.github.io/Personal_Portfolio/"
             target="_blank"
             rel="noreferrer"
           >
