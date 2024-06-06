@@ -16,7 +16,7 @@ const Resume = () => {
           </span>
           <span>
             <a
-              href="kenni001.github.io/Personal_Portfolio/"
+              href="https://kenni001.github.io/Personal_Portfolio/"
               target="_blank"
               rel="noreferrer"
             >
