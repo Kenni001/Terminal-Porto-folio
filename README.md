@@ -34,6 +34,10 @@ Open your web browser and visit http://localhost:3000 to view your terminal port
 
 React, JavaScript, HTML, CSS
 
+## Contributing
+
+We welcome contributions from the community! If you have suggestions for improvements, new features, or bug fixes, please feel free to submit a pull request or open an issue.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
