@@ -98,76 +98,182 @@ const Resume = () => {
         </div>
         <div className="professional-experience-item">
           <strong>
+            Security Researcher, Syracuse University – Syracuse, NY
+          </strong>
+          <strong>July 2024 – Present</strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Conducted in-depth vulnerability assessments on Blockchain-based
+              IoT devices to detect and address security gaps in authentication
+              protocols and data encryption, helping strengthen device-level
+              protection against cyber threats.
+            </li>
+            <li>
+              Researched and implemented Blockchain frameworks tailored to IoT,
+              enhancing data integrity, user privacy, and accountability within
+              decentralized networks, which facilitated secure and trustworthy
+              IoT communication.
+            </li>
+            <li>
+              Developed risk assessment methodologies specifically for
+              Blockchain-IoT systems, focusing on secure data transmission and
+              ensuring device identity verification, which mitigated risks
+              related to data interception and unauthorized access.
+            </li>
+            <li>
+              Analyzed smart contract security within IoT contexts, pinpointing
+              vulnerabilities and implementing secure coding practices to
+              prevent unauthorized access and data breaches in connected
+              devices.
+            </li>
+            <li>
+              Proposed a multi-layered security architecture integrating
+              Blockchain and IoT security best practices, which improved device
+              resilience against distributed network attacks, adding an extra
+              layer of defense for IoT systems.
+            </li>
+          </ul>
+        </div>
+        <div className="professional-experience-item">
+          <strong>
             Graduate Teaching Assistant, Syracuse University – Syracuse, NY
           </strong>
           <strong>June 2023 – August 2023</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Led interactive cybersecurity workshops, enhancing student
-              comprehension and skill development by 20% through hands-on
-              sessions for 50+ participants.
+              Led hands-on cybersecurity workshops for over 50 participants,
+              increasing engagement and enhancing comprehension and skill
+              development by 20% through interactive learning experiences.
             </li>
             <li>
-              Managed a Capture the Flag (CTF) competition, galvanizing over 100
-              students to collaborate and apply cybersecurity principles in
-              real-time challenges, fostering teamwork and practical expertise.
+              Organized and hosted a Capture the Flag (CTF) competition with
+              100+ participants, fostering teamwork and practical cybersecurity
+              application, which enhanced participants’ collaborative and
+              technical skills.
             </li>
             <li>
-              Directed a team of 10 students to fortify network defenses in the
-              Cyber Collegiate Defense Competition (CCDC), securing the top
-              position among 20 participating groups through strategic planning
-              and execution.
-            </li>
-          </ul>
-        </div>
-        <div className="professional-experience-item">
-          <strong>
-            Graduate Research Assistant, Syracuse University – Syracuse, NY
-          </strong>
-          <strong>January 2023 – May 2023</strong>
-          <ul style={{ textAlign: "justify" }}>
-            <li>
-              Coordinated the rapid development of the SEED Lab internet
-              emulator, showcasing proficiency in Python, Flask, and Docker,
-              resulting in a 30+ Ethereum node network with real-world
-              functionalities such as Ether transactions and wallet creation.
+              Directed a team of 10 in the Cyber Collegiate Defense Competition
+              (CCDC), achieving first place among 20 groups through strategic
+              planning and strong network defense measures.
             </li>
             <li>
-              Architected an interactive user interface leveraging HTML, CSS,
-              and JavaScript, integrated with MetaMask for seamless Ethereum
-              account management, enhancing user experience and facilitating
-              real-time data streaming using Web Sockets and multi-threading
-              techniques.
+              Implemented pre-competition training sessions that significantly
+              boosted team members' skills in network security and threat
+              analysis, contributing to improved overall performance in
+              competitions.
             </li>
             <li>
-              Implemented RESTful API endpoints with Flask and optimized data
-              storage with SQL Alchemy, achieving efficient application
-              performance and ensuring seamless scalability while saving
-              application data in a SQLite3 database.
+              Collaborated with industry professionals to continually update
+              workshop and competition content, utilizing participant feedback
+              to refine scenarios and align with current industry standards,
+              leading to higher success rates in future events.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Developer, The Sparks Foundation – Bangalore, IN{" "}
+            Financial risk Analyst, Abacus Education Pvt. Ltd. - Indore, IN
           </strong>
-          <strong>June 2021 – September 2021</strong>
+          <strong>May 2021 – May 2022</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Pioneered the integration of cutting-edge front-end frameworks,
-              driving a 20% boost in website responsiveness and slashing load
-              times by 15% for enhanced user experience.
+              Conducted static and behavioral analysis of financial systems and
+              transactions, proactively identifying and mitigating risks before
+              they impacted business operations, thereby reducing risk exposure.
             </li>
             <li>
-              Revolutionized project workflows by implementing Agile
-              methodologies,catalyzing a 30% reduction in project delivery
-              time,and fostering greater efficiency in software development
-              processes.
+              Implemented preemptive threat analysis techniques to detect
+              potential threats early, strengthening the organization’s security
+              posture and enhancing overall risk management protocols for
+              financial data.
             </li>
             <li>
-              Conducted meticulous code reviews, detecting and rectifying 95% of
-              bugs pre-deployment, guaranteeing a flawless user experience and
-              elevating product quality standards.
+              Developed customized alerts and use cases to monitor key financial
+              indicators, allowing for real-time identification of emerging
+              risks, which improved responsiveness and reduced potential for
+              financial fraud.
+            </li>
+            <li>
+              Designed dynamic dashboards and reports that enabled real-time
+              tracking of financial risks, providing actionable insights for
+              decision-makers and facilitating more informed risk-based
+              decisions.
+            </li>
+            <li>
+              Improved regulatory compliance and alignment with industry
+              standards by proactively identifying vulnerabilities and
+              mitigating risks in financial processes, which helped in
+              maintaining a robust and secure financial infrastructure.
+            </li>
+          </ul>
+        </div>
+        <div className="professional-experience-item">
+          <strong>Security Engineer, Haqurity Infotech - Mumbai IN </strong>
+          <strong>January 2017 – July 2018</strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Integrated DevSecOps principles into CI/CD pipelines, automating
+              security checks using SAST and DAST tools (e.g., OWASP ZAP, Burp
+              Suite), which reduced vulnerabilities by 35% in the software
+              development lifecycle.
+            </li>
+            <li>
+              Led Threat Modeling sessions using the DREAD framework to identify
+              critical risks early in development, leading to a 30% reduction in
+              security incidents during production and increased stakeholder
+              awareness.
+            </li>
+            <li>
+              Configured security features for web applications with IaC tools
+              (e.g., Ansible, Docker), automating secure infrastructure
+              deployments, which decreased security misconfigurations and
+              streamlined secure application delivery.
+            </li>
+            <li>
+              Deployed container security measures by auditing Docker daemons
+              and scanning images with Clair, reducing attack surfaces in
+              containerized environments by 15% and securing microservices from
+              potential threats.
+            </li>
+            <li>
+              Optimized security of API endpoints by implementing OWASP
+              guidelines, ensuring sensitive data protection and reducing
+              exposure to API vulnerabilities by 20%, which enhanced overall
+              application security.
+            </li>
+          </ul>
+        </div>
+        <div className="professional-experience-item">
+          <strong>Software Engineer, Haqurity Infotech - Mumbai IN </strong>
+          <strong>June 2016 – December 2016</strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Resolved application bottlenecks with caching strategies using
+              Redis and Spring Cache, ensuring code reliability through unit and
+              integration testing with JUnit and Mockito, which enhanced
+              application performance.
+            </li>
+            <li>
+              Managed schema design, query optimization, and data migration with
+              Firebase and MongoDB, enforcing security best practices for
+              authentication, authorization, and data encryption to protect
+              sensitive information.
+            </li>
+            <li>
+              Developed CI/CD pipelines with Jenkins and Docker, reducing
+              deployment times and improving software reliability. Used Git for
+              version control and performed thorough code reviews to maintain
+              high quality.
+            </li>
+            <li>
+              Collaborated with UX/UI designers, product managers, and QA
+              engineers to deliver quality software solutions, participating in
+              agile methodologies to track project progress effectively.
+            </li>
+            <li>
+              Improved application modularity and scalability by mentoring
+              junior developers and fostering a culture of continuous learning
+              and knowledge sharing within the team.
             </li>
           </ul>
         </div>
@@ -234,24 +340,34 @@ const Resume = () => {
         </div>
         <ul>
           <li>
-            <strong>Programming Languages :</strong> Python | C / C++ | Java |
-            Bash / SHELL.
+            <strong>Programming Languages :</strong> Python, Core Java, C / C++,
+            Android, Bash, PowerShell, Assembly
           </li>
           <li>
-            <strong>Skills :</strong> Incident Response | Network Pen-testing |
-            Threat Modeling | STRIDE | OWASP Top 10.
+            <strong>Skills :</strong> Incident Response, Network Pen-testing,
+            Threat Modeling, STRIDE, OWASP Top 10.
+          </li>
+          <li>
+            <strong>Web & Database</strong> HTML, CSS, JavaScript, jQuery, Core
+            PHP, WordPress, Drupal, MySQL, MongoDB, Firebase
           </li>
           <li>
             <strong>Operating Systems :</strong> Linux Distribution (Ubuntu,
-            Kali, Parrot OS) | Windows 10 | Windows Server Edition | Mac OS.
+            Kali, Parrot OS), Windows 10, Windows Server Edition, Mac
           </li>
           <li>
-            <strong>Developer Tools :</strong> Git | GitHub | VS Code
+            <strong>Developer Tools :</strong> Git, GitHub, VS Code
           </li>
           <li>
-            <strong>Security Tools</strong> Burpsuite | NMAP | Metasploit |
-            Wireshark | QRadar | Nessus | Autopsy | Splunk | Volatility | Docker
-            | AWS | SIFT | GDB Debugger.
+            <strong>Security Tools :</strong> Nmap, Wireshark, Metasploit,
+            Nessus, Snort, Tcpdump, Burp Suite, Nikto, Hydra, Hashcat, John,
+            Wpscan, Sqlmap, Responder, GNU Debugger (GDB), Android Studio,
+            Google Suite, VMWare, Autopsy, Ghidra, Ida pro, foremost, AWS
+            Console, Splunk SIEM
+          </li>
+          <li>
+            <strong>Frameworks :</strong> NIST, MITRE ATT&CK, PCI-DSS, GDPR,
+            HIPAA, ISO 2700x, SOX, SOC 2, CCPA, FERPA, OWASP Top 10
           </li>
         </ul>
       </div>
@@ -334,9 +450,9 @@ const Resume = () => {
             <li>
               Spearheaded 5 events engaging 200 students with a team of 12,
               including national-level workshops and hackathons, notably
-              organizing a <b>"Play with Pixels"</b> workshop for 120+ participants and
-              a <b>“UI/UX”</b> hackathon for 100 students.led vulnerability scans,
-              enhancing security for Windows 10 hosts.
+              organizing a <b>"Play with Pixels"</b> workshop for 120+
+              participants and a <b>“UI/UX”</b> hackathon for 100 students.led
+              vulnerability scans, enhancing security for Windows 10 hosts.
             </li>
             <li>
               <b>Competitions:</b> AmritaCTF By VIT.
@@ -358,8 +474,9 @@ const Resume = () => {
               cloud-based enumeration labs with a team of 6 members.
             </li>
             <li>
-              <b>Competitions:</b> Runner-up at NCAE Cybergames Northeast, Winner at
-              CNY,Hive storm by UTSA,Lockdown by SUNY Buffalo, CyberStartCTF.
+              <b>Competitions:</b> Runner-up at NCAE Cybergames Northeast,
+              Winner at CNY,Hive storm by UTSA,Lockdown by SUNY Buffalo,
+              CyberStartCTF.
             </li>
           </ul>
         </div>
